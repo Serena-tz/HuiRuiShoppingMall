@@ -1,0 +1,216 @@
+/*导航*/
+.nav{
+	position: relative;
+	margin: 0 auto 20px;
+	width: 1000px;
+	line-height: 40px;
+	background-color: #0ba1ed;
+}
+.nav a{
+	margin: 0 20px;
+	display: inline-block;
+	color: #fff; 
+}
+.subnav{
+	margin: 10px auto;
+	width: 1000px;
+	color: #888;
+	font-size: 14px;
+}
+/*商品信息*/
+.product{
+	overflow: hidden;
+}
+.product .left{
+	float: left;
+	width: 505px;
+}
+.product .left>img{
+	border: 1px solid #ddd;
+}
+.product .left .thumbimg img{
+	margin: 10px 0;
+	width: 94px;
+	border: 1px solid #ddd;
+}
+.product .right{
+	float: right;
+	width: 495px;
+}
+.product .right h2{
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #333;
+}
+.product .right p{
+	font-size: 14px;
+	color: #999;
+}
+.product .right .price{
+	margin: 10px 0;
+	padding: 20px 15px;
+	line-height: 30px;
+	background-color: #f5f5f5;
+}
+.product .right .price span{
+	font-size: 24px;
+	color: #0ba1ed;
+}
+.product .right .num{
+	margin: 20px 0;
+	font-size: 14px;
+	color: #666;
+	overflow: hidden;
+}
+.product .right .num .detail span{
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.product .right .num .detail span:hover,
+.product .right .num .detail span.active{
+	border: 1px solid #0ba1ed;
+	color: #0ba1ed;
+}
+.product .right .num .detail a,
+.product .right .num .detail input{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	background-color: #ddd;
+	color: #333;
+	vertical-align: middle;
+}
+.product .right .num .detail input{
+	height: 32px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+.product .right .num .name{
+	height: 34px;
+	line-height: 34px;
+}
+.product .right .num .name,
+.product .right .num .detail{
+	float: left;
+}
+.product .right .btndiv .btn{
+	margin-right: 20px;
+}
+.product .right .btndiv a:nth-child(3){
+	width: 55px;
+	line-height: 18px;
+}
+/*为你推荐*/
+.foryou h2{
+	margin: 10px 0;
+	font-size: 24px;
+	color: #666;
+	font-weight: normal;
+}
+.foryou .fordetail{
+	padding: 10px 0;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+.foryou .fordetail li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.foryou .fordetail li img{
+	transition: all 0.4s;
+}
+.foryou .fordetail li:hover img{
+	transform: scale(1.2);
+}
+.foryou .fordetail li p{
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #5a5a5a;
+}
+.foryou .title{
+	margin-top: 20px;
+	line-height: 48px;
+	background-color: #f5f5f5;
+}
+.foryou .title span{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 30px;
+	color: #999;
+}
+.foryou .title span.active{
+	color: #333;
+	border-bottom: 2px solid #0aa1ed;
+}
+.foryou .title .btn2{
+	margin-top: 6px;
+	margin-right: 10px;
+	float:right;
+}
+.foryou .detail{
+	overflow: hidden;
+}
+.foryou .detail .left{
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-right: 20px;
+	float: left;
+	width: 809px;
+	color: #666;
+	border-right: 1px solid #ddd;
+}
+.foryou .detail .left .param{
+	margin: 10px 0;
+}
+.foryou .detail .left .content{
+	margin: 20px;
+}
+.foryou .detail .left .content span{
+	display: inline-block;
+	width: 280px;
+	font-size:14px;
+	color: #333;
+	line-height: 28px;
+}
+.foryou .detail .left .saled{
+	padding: 10px 0;
+	margin: 20px 0;
+	border-bottom: 1px solid #ddd;
+}
+.foryou .detail .left .protect{
+	margin: 20px 0;
+	color: #0aa1ed;
+}
+.foryou .detail .right{
+	float: right;
+	margin-top: 20px;
+	width: 150px;
+}
+.foryou .detail .right .btn1{
+	color: #666;
+}
+.foryou .detail .right .btn img{
+	margin-right: 8px;
+	transition: all 0.4s;
+}
+.foryou .detail .right a{
+	margin-bottom: 5px;
+}
+.foryou .detail .right a span{
+	display:inline-block;
+	transition: all 0.4s;
+}
+.foryou .detail .right a:hover img{
+	transform: rotate(-25deg);
+}
+.foryou .detail .right a:hover span{
+	transform:translateY(-3px);
+}

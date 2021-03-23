@@ -1,0 +1,347 @@
+﻿/*
+*
+    作者：肖桃
+    创建日期：2020-6-05
+    修改日期：20202-6-06
+    版本号：ver 1.0
+*
+*/
+/* 设置首页的顶部 */
+.indextop{
+    margin-top: 52px;
+}
+/* 设置搜索框 */
+.topform{
+    width: 409px;
+    height: 36px;
+    background-image: url(../images/01-search.png);
+}
+.textinput{
+    width: 364px;
+    height: 34px;
+    color: #666;
+    padding-left: 9PX;
+}
+.topbutton{
+    width: 36px;
+    height: 36px; 
+    cursor: pointer;  
+}
+.textinput,.topbutton{
+    background-color: transparent;
+    outline-color: #b9b9b9;
+}
+.fa-heart,.fa-file-alt,.fa-shopping-cart{
+    font-size: 16px;
+}
+/* 设置右边登录和注册部分 */
+.topright{
+    color: #b9b9b9;
+    margin: 8px 0;
+}
+.topright img{
+    vertical-align: middle;
+}
+.topright span{
+    margin: 0 5px;
+}
+/* 设置顶部导航条 */
+.nav{
+    background-color: #0BA1ED;
+    height: 50px;
+    margin-top: 54px;
+    margin-bottom: 16px;
+}
+#nav a{
+    display: inline-block;
+    color: white;
+    line-height: 50px;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+}
+#nav a:hover{
+    background-color: blue;
+}
+/* 还是设置一下二级菜单吧 */
+.erji{
+    float: none;
+    position: absolute;
+    z-index: 99;
+    background-color: #777;
+    display: none;
+}
+.haha:hover .erji{
+    display: block;
+}
+/* 开始设置主体部分 */
+.topbox li{
+    color: #ddd;
+}
+.toppic li{
+    position: absolute;
+    height: 450px;
+    
+}
+.toppic img{
+    border: #ddd solid 1px;
+}
+.text{
+    width: 495PX;
+}
+#fontfont{
+    font-size: 20px;
+    color: #0BA1ED;
+}
+.sale{
+    background-color: #f5f5f5;
+    height: 85px;
+    /* line-height: 65px; */
+    padding: 15px 0 0 15px;
+}
+.saletext p{
+    /* margin: 15px 0 0 15px; */
+    margin-bottom: 15px;
+}
+.gboxs{
+    width: 400px;
+    
+}
+.gbox{
+    border: #ddd solid 1px;
+    margin-left: 10px;
+    color: black;
+}
+.gboxs .gbox:nth-child(1),.gboxs .gbox:nth-child(2){
+    margin-bottom: 10px;
+}
+.gbox:hover,.gbox:visited,.lt:hover,.how:hover,.gt:hover{
+    border: #0aa1ed solid 1px;
+    /* cursor: pointer; */
+    
+}
+.guige{
+    margin-top: 20px;
+}
+.lt,.how,.gt{
+    width: 30px;
+    height: 30px;
+    border: #ddd 1px solid;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+}
+.lt,.gt{
+    background-color: #ddd;
+}
+.shuliang{
+    margin-top: 20px;
+}
+.buy,.car,.like{
+    height: 40px;
+    margin-right: 15px;
+    text-align: center;
+    
+}
+.buys{
+    margin-top: 50px;
+}
+.buy{
+    background-color: #ddd;
+    color: #0aa1ed;
+    border-color: transparent;
+}
+.buy,.car{
+    width: 140px;
+    line-height: 40px;
+    border-color: transparent;
+}
+.like{
+    width: 40px;
+}
+.like p{
+    line-height: 10px;
+}
+.car,.like{
+    background-color: #0aa1ed;
+    color: white;
+}
+.car:hover,.buy:hover,.like:hover{
+    color: red;
+}
+
+/*  */
+.twopics img{
+    border: #ddd 1px solid;
+    margin-top: 10px;
+}
+.twopics img:hover{
+    border: #0aa1ed solid 1px;
+}
+/*  */
+.tpics{
+    width: 990px;
+    height: 200px;
+    border: #ddd solid 1px;
+    margin-top: 5px;
+    text-align: center;
+}
+.picli{
+    width: 190px;
+    text-align: center;
+    margin-left: 50px;
+    line-height: 15px;
+}
+.picul li:nth-child(1){
+    margin-left: 40px;
+}
+/* 这是商品详情 */
+.sdetails{
+    margin-top: 20px;
+}
+.detailtop{
+    height: 60px;
+    background-color: #f5f5f5;
+    line-height: 60px;
+}
+.a1{
+    margin : 0 20px;
+}
+
+#haha{
+    height: 58px;
+    line-height: 58px;
+    border-bottom: #0aa1ed solid 2px;
+    color: #0aa1ed;
+}
+#xixi{
+    color: black;
+}
+/* 这里设置参数 */
+.canshu li{
+    /* margin-right: 85px; */
+    display: inline-block;
+    width: 270px;
+    line-height: 35px;
+}
+.canshu img,.jieshao img{
+    vertical-align: middle;
+}
+.canshu h3{
+    margin-bottom: 15px ;
+    padding-top: 25px;
+}
+.jieshao h3,.bao h3,.slist h3{
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: #ddd 1px solid;
+}
+.jieshao,.bao,.slist{
+    margin-right: 25px;
+}
+.mainfoot{
+    border-right: #ddd 1px solid;
+    width: 830px;
+}
+.bao img,h4 img,.slist img{
+    vertical-align: middle;
+}
+h4 span{
+    color: #0aa1ed;
+}
+.bao h4{
+    margin: 30px 0;
+}
+.slist p{
+    padding: 20px 0;
+    border-bottom: #ddd 1px solid;
+}
+/* 这里是悬浮按钮 */
+.fu li{
+    width: 150px;
+    height: 40px;
+    background-color: #e8e8e8;
+    line-height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#fu.fu li:last-child,#fu.fu li:first-child{
+    background-color: #0aa1ed;
+    color: white;
+}
+
+#lili a{
+    color: white;
+}
+#lili a:hover{
+    color: red;
+}
+.fu img{
+    vertical-align: middle;
+}
+.fus{
+    position: fixed;
+    z-index: 999;
+    right: 180px;
+    bottom: 190px;
+}
+#lala a{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+}
+#lala a:hover{
+    background-color: #0aa1ed;
+    color: white;
+}
+/* 开始设置图标4个 */
+.bicon{
+    height: 190px;
+    color: #626262;
+    position: relative;  
+}
+.biconson{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    margin-left: 90px;
+}
+.bicon li{
+    margin-right: 180px;
+   
+}
+.bicon li:nth-child(4){
+    margin-right:0px;
+}
+/* 让我来设置一下图标的浮动 */
+.bicon img:hover{
+    transform: rotate(360deg);
+    transition: all 0.6s
+}
+.bicon img{
+cursor: pointer;
+}
+/* 这里是底部的信息 */
+.footer{
+    background-color: #f5f5f5;
+    height: 200px;
+    width: 100%;
+}
+.contentfoot {
+    padding-top: 30px;
+}
+.aboutus{
+    display: inline-block;
+}
+.help{
+    margin-left: 102px;
+
+}
+.margin{
+    margin-top: 12px;
+}
+.copyright{
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}

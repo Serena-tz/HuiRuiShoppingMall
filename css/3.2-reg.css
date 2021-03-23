@@ -1,0 +1,174 @@
+﻿/*
+*
+    作者：肖桃
+    创建日期：2020-6-05
+    修改日期：20202-6-07
+    版本号：ver 1.0
+*
+*/
+/* 设置首页的顶部 */
+.indextop{
+    margin-top: 52px;
+}
+.wel{
+    margin-left: 40px;
+}
+/* 开始设置主体部分 */
+.main{
+    height:600px ;
+    width: 1920px;
+    margin: 50px auto 110px;
+    background-image: url(../images/03-1bgimg.jpg);
+}
+.window{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 125px;
+    right: 460px;
+    background-image: url(../images/03-1weima.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+}
+.wtop{
+    height: 54px;
+    /* width: 315px; */
+    
+}
+.wlogin,.reg{
+    width: 95px;
+    height: 52px;
+    margin-left: 45px;
+    line-height: 52px;
+    color: #333;
+}
+.reg{
+    margin-right: 90px;
+}
+.wlogin a,.reg a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    width: 100%;
+    margin: 0 auto;
+}
+.form input{
+    background-color: transparent;
+    outline-color: #0ba1ed;
+    color:#999;
+    border: #d0c1ba solid 1px;
+    width: 315px;
+    height: 40px;
+}
+.form input:nth-child(1),.form input:nth-child(1){
+    margin-top: 15px;
+    
+}
+#button{
+    margin: 25px 0;
+    background-color: #0ba1ed;
+    color: white;
+}
+/* 这里是微信登录 */
+.logins{
+    margin-left: 40px;
+    margin-top: 258px;
+}
+.logins img{
+    vertical-align: middle;
+}
+.logins a:nth-child(2){
+    margin-left: 35px;
+}
+.forget a{
+    /* display: inline-block; */
+    margin: 20px 0 0 285px ;
+    color: #d0c1ba;
+}
+/* 让我来设置一下切换效果 */
+.wtop input{
+    position: absolute;
+}
+
+.tz1,.tz2{
+    width: 400px;
+    height: 204px;
+    border-top: 1px solid #d0c1ba;
+    margin-top: 54px;
+    position: absolute;
+}
+
+.dl,.zc{
+    height: 52px;
+    line-height: 52px;
+}
+.dl{
+    margin-left: 45px;
+    width: 90px;
+}
+.zc{
+    margin-left: 70px;
+    width: 90px;
+}
+.check1,.check2{
+    display: none;
+}
+.check1:checked+label .dl,.check2:checked+label .zc{
+    border-bottom: 2px solid #0ba1ed;
+    color: #0ba1ed;
+}
+/* 真的开始设置切换了 */
+.tz1{
+    display: none;
+}
+.check1:checked+.tab+.check2+.tab+.tz1+.tz2{
+    display: none;
+}
+.check1:checked+.tab+.check2+.tab+.tz1{
+    display: block;
+}
+/* .tz1{
+    display: none;
+}
+.tz2{
+    display: block;
+} */
+/* 这是对验证码的修改 */
+#text2{
+    width: 165px;
+    
+}
+#text3{
+    width: 136px;
+    margin-left: 8px;
+    background-color: #0ba1ed;
+    color: white;
+}
+/* 这里是底部的信息 */
+.footer{
+    background-color: #f5f5f5;
+    height: 200px;
+    width: 100%;
+}
+.contentfoot {
+    padding-top: 30px;
+}
+.aboutus{
+    display: inline-block;
+}
+.help{
+    margin-left: 102px;
+
+}
+.margin{
+    margin-top: 12px;
+}
+.copyright{
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}

@@ -1,0 +1,305 @@
+﻿/*
+*
+    作者：肖桃
+    创建日期：2020-6-05
+    修改日期：20202-6-06
+    版本号：ver 1.0
+*
+*/
+/* 设置首页的顶部 */
+.indextop{
+    margin-top: 52px;
+}
+/* 设置搜索框 */
+.topform{
+    width: 409px;
+    height: 36px;
+    background-image: url(../images/01-search.png);
+}
+.textinput{
+    width: 364px;
+    height: 34px;
+    color: #666;
+    padding-left: 9PX;
+}
+.topbutton{
+    width: 36px;
+    height: 36px; 
+    cursor: pointer;  
+}
+.textinput,.topbutton{
+    background-color: transparent;
+    outline-color: blue;
+}
+.fa-heart,.fa-file-alt,.fa-shopping-cart{
+    font-size: 16px;
+}
+/* 设置右边登录和注册部分 */
+.topright{
+    color: #b9b9b9;
+    margin: 8px 0;
+}
+.topright img{
+    vertical-align: middle;
+}
+.topright span{
+    margin: 0 5px;
+}
+/* 设置顶部导航条 */
+.nav{
+    background-color: #0BA1ED;
+    height: 50px;
+    margin-top: 54px;
+    margin-bottom: 16px;
+}
+#nav a{
+    display: inline-block;
+    color: white;
+    line-height: 50px;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+}
+#nav a:hover{
+    background-color: blue;
+}
+/* 还是设置一下二级菜单吧 */
+.erji{
+    float: none;
+    position: absolute;
+    z-index: 99;
+    background-color: #777;
+    display: none;
+}
+.haha:hover .erji{
+    display: block;
+}
+/* 设置轮播图 */
+.maintop{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.maintop li img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    
+}
+.maintop ul li:first-child img{
+    animation: h1 12s linear 0s infinite;
+    -webkit-animation: h1 12s linear 0s infinite;
+}
+.maintop ul li:nth-child(2) img{
+    animation: h1 12s linear 3s infinite;
+    -webkit-animation: h1 12s linear 3s infinite;
+}
+.maintop ul li:nth-child(3) img{
+    animation: h1 12s linear 6s infinite;
+    -webkit-animation: h1 12s linear 6s infinite;
+}
+.maintop ul li:nth-child(4) img{
+    animation: h1 12s linear 9s infinite;
+    -webkit-animation: h1 12s linear 9s infinite;
+
+}
+@keyframes h1{
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes h2{
+    0%{opacity: 1;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes h3{
+    0%{opacity: 1;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes h4{
+    0%{opacity:1;}
+    25%{opacity:1;}
+    50%{opacity:1;}
+    75%{opacity:1;}
+    100%{opacity:0;}
+}
+/* -webkit-@keyframes h1{
+    0%{opacity: 1;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:0;}
+} */
+.dot,.dot2,.dot3,.dot4{
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    bottom: 27px;
+    
+}
+.dot{
+    left: 458px; 
+}
+.dot2{
+    left: 477px; 
+}
+.dot3{
+    left: 496px; 
+}
+.dot4{
+    left: 515px; 
+}
+.dots .on:hover{
+    background-color: #09a1ed;
+}
+.pointer1,.pointer2{
+    position: absolute;
+    z-index: 9;
+    top:153px;
+    width: 23px;
+    height: 38px;
+    background-color: #dedde5;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 38px;
+    text-align: center;
+}
+.pointer1{
+    left: 3px;
+}
+.pointer2{
+    right: 3px;
+}
+
+.pointer .on:hover{
+    background-color: #09a1ed;
+}
+/* 设置一下轮播图的切换效果 */
+/* .check1{
+    position: absolute;
+    display: none;
+}
+.maintop img{
+    z-index: 9999;
+} */
+/* 让我来设置一下好玩的效果 */
+.outer{
+    position: relative;
+}
+.inner{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+.inner3{
+    position: absolute;
+    right: 15px;
+    bottom: 60px;
+}
+.inner4,.inner5,.inner6{
+    position: absolute;
+    bottom: 120px;
+    right: 24px;
+    
+}
+
+.inner:hover,.inner3:hover,.inner4:hover,.inner5:hover,.inner6:hover{
+    transform: scale(1.2);
+}
+.inner,.inner3,.inner4,.inner5,.inner6{
+   cursor: pointer;
+   transition: all 1s;
+}
+
+/* 开始设置主体 */
+.first{
+    margin-top: 25px;
+}
+.firsttop img{
+    vertical-align: middle;
+}
+.firsttop{
+    font-size: 24px;
+    color: #666;
+    border-bottom: #ddd solid 2px;
+    padding-bottom: 8px;
+}
+.firsttop span{
+    margin-left: 18px;
+}
+.pic1{
+   
+    margin-right: 10px;
+}
+.pic li{
+    margin-top: 10px;
+}
+.pic{
+    line-height: 0px;
+}
+.pic li:nth-child(3),.pic li:nth-child(4){
+    margin-right: 10px;
+}
+/* 开始设置图标4个 */
+.bicon{
+    height: 190px;
+    color: #626262;
+    position: relative;  
+}
+.biconson{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    margin-left: 90px;
+}
+.bicon li{
+    margin-right: 180px;
+   
+}
+.bicon li:nth-child(4){
+    margin-right:0px;
+}
+/* 让我来设置一下图标的浮动 */
+.bicon img:hover{
+    transform: rotate(360deg);
+    transition: all 0.6s
+}
+.bicon img{
+cursor: pointer;
+}
+/* 这里是底部的信息 */
+.footer{
+    background-color: #f5f5f5;
+    height: 200px;
+    width: 100%;
+}
+.contentfoot {
+    padding-top: 30px;
+}
+.aboutus{
+    display: inline-block;
+}
+.help{
+    margin-left: 102px;
+
+}
+.margin{
+    margin-top: 12px;
+}
+.copyright{
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}

@@ -1,0 +1,88 @@
+.header .logo{
+	width: 387px;
+}
+.header .logo img{
+	margin-right: 30px;
+	vertical-align: middle;
+}
+/*表单*/
+.bgform{
+	height: 600px;
+	background: url(../images/bg.png) no-repeat;
+}
+.bgform .container{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+}
+.bgform .container .login{
+	padding: 15px 5px;
+	position: absolute;
+	top: 142px;
+	right: 0;
+	width: 400px;
+	line-height: 40px;
+	background: rgba(255,255,255,0.9) url(../images/qr.png) right 5px no-repeat;
+}
+.bgform .container .login .top{
+	text-align: center;
+	border-bottom: 1px solid #666;
+}
+.bgform .container .login .top a{
+	display: inline-block;
+	margin-right: 40px;
+	width: 96px;
+	color: #333;
+	text-decoration: none;
+}
+.bgform .container .login .top a.active{
+	border-bottom: 2px solid #0ba1ed;
+	color: #0ba1ed;
+}	
+.bgform .container .login .content{
+	margin: auto;
+	width: 314px;
+}
+.bgform .container .login .content input{
+	margin-top: 15px;
+	height: 40px;
+	border: 1px solid #666;
+	vertical-align: middle;
+}
+.bgform .container .login .content .ipt1{
+	padding-left: 5px;
+	width: 307px;
+}
+.bgform .container .login .content .ipt2{
+	padding-left: 5px;
+	width: 163px;
+}
+.bgform .container .login .content .ipt3{
+	margin-left: 3px;
+	width: 136px;
+	height: 44px;
+	background-color: #0ba1ed;
+	color: #fff;
+	border: 1px solid #0ba1ed;
+}
+.bgform .container .login .content .ipt4{
+	width: 100%;
+	height: 44px;
+	background-color: #0ba1ed;
+	color: #fff;
+	border: 1px solid #0ba1ed;
+}
+.bgform .container .login .content .qq{
+	margin-top: 10px;
+}
+.bgform .container .login .content .qq span{
+	margin-right: 40px;
+}
+.bgform .container .login .content img{
+	vertical-align: middle;
+}
+.bgform .container .login .content .fr{
+	float: right;
+	color: #999;
+	font-size: 14px;
+}

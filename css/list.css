@@ -1,0 +1,266 @@
+/*
+*
+    作者：肖桃
+    创建日期：2020-6-05
+    修改日期：20202-6-06
+    版本号：ver 1.0
+*
+*/
+/* 设置首页的顶部 */
+.indextop{
+    margin-top: 52px;
+}
+/* 设置搜索框 */
+.topform{
+    width: 409px;
+    height: 36px;
+    background-image: url(../images/01-search.png);
+}
+.textinput{
+    width: 364px;
+    height: 34px;
+    color: #666;
+    padding-left: 9PX;
+}
+.topbutton{
+    width: 36px;
+    height: 36px; 
+    cursor: pointer;  
+}
+.textinput,.topbutton{
+    background-color: transparent;
+    outline-color: #b9b9b9;
+}
+.fa-heart,.fa-file-alt,.fa-shopping-cart{
+    font-size: 16px;
+}
+/* 设置右边登录和注册部分 */
+.topright{
+    color: #b9b9b9;
+    margin: 8px 0;
+}
+.topright img{
+    vertical-align: middle;
+}
+.topright span{
+    margin: 0 5px;
+}
+/* 设置顶部导航条 */
+.nav{
+    background-color: #0BA1ED;
+    height: 50px;
+    margin-top: 54px;
+    margin-bottom: 16px;
+}
+#nav a{
+    display: inline-block;
+    color: white;
+    line-height: 50px;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+}
+#nav a:hover{
+    background-color: blue;
+}
+
+/* 这里是小米的列表主体 */
+.main{
+    height: 1605px;
+    background-color: #f5f5f5;
+}
+.mainmain,.main2{
+    width: 1226px;
+    margin: 0 auto;
+}
+.maintop{
+    line-height: 40px;
+}
+.maintop .ul li:nth-child(2){
+    color: #999;
+}
+.toplist{
+    height: 80px;
+    line-height: 80px;
+    background-color: #fff;
+}
+.toplist li a{
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+}
+.toppic{
+    height: 460px;
+}
+.toppic img{
+    height: 460px;
+}
+.pics{
+    margin-top: 15px;
+}
+.pics ul li:nth-child(2n+1){
+    margin-right: 10px;
+}
+.pics li{
+    width: 606px;
+    height: 490px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.litext{ 
+    height: 130px;
+}
+.litext .text{
+    width: 530px;
+    border-top: 1px #ddd solid;
+    margin:  0 auto;
+}
+.buy{
+    /* color: orange; */
+    width: 160px;
+    line-height: 40px;
+    border: orange 1px solid;
+}
+.more{
+    background-color: #fff;
+    height: 2000px;
+}
+.h33{
+    line-height: 250px;
+}
+.twopic{
+    height: 490px;
+    border-bottom: #ddd 1px solid;
+}
+.twopic li{
+    height: 355px;
+    width: 305px;
+    box-shadow: rgba(255, 255, 2555, 0.5);
+}
+.left,.right{
+    background-color: #ddd;
+}
+.left{
+    margin-left: 275px;
+}
+.right{
+    margin-left: 60px;
+}
+.lefttop{
+    background-color: #2196f3;
+    height: 240px;
+    /* padding-top: 65px; */
+}
+.lefttop img{
+    margin-top: 65px;
+}
+.righttop img{
+    margin-top: 80px;
+}
+.righttop {
+    background-color: #e53935;
+    height: 240px;
+}
+}
+.lefttext p,.righttext p{
+    line-height: 40px;
+ 
+}
+.dapei{
+    height: 260px;
+}
+.h34{
+    margin-top: 75px;
+}
+.zhong{
+    margin-top: 20px;
+}
+.xia{
+    line-height: 40px;
+}
+.pic11,.pic12,.pic13{
+    width: 405px;
+}
+.pic11,.pic12{
+    border-right: 1px solid #ddd;
+    height: 370px;
+}
+.lastpic{
+    height: 600px;
+    background-image: url(../小米列表页/list/phone-section-05.jpg);
+    position: relative;
+    
+}
+.lastbottom{
+    height: 160px;
+    width: 1226px;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.ll{
+    color: white;
+    margin-left: 75px;
+}
+.rr div{
+    height: 45px;
+    width: 180px;
+    border: orange solid 1px;
+    line-height: 45px;
+}
+.ll h3{
+    margin-top: 50px;
+}
+.ll p:first-child{
+    margin-top: 15px;
+}
+.xiaomi{
+    margin: 20px 25px 10px 0;
+}
+.weixiu{
+    margin-right: 25px;
+}
+/* 开始设置图标4个 */
+.bicon{
+    height: 190px;
+    color: #626262;
+    position: relative;  
+}
+.biconson{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    margin-left: 90px;
+}
+.bicon li{
+    margin-right: 180px;
+   
+}
+.bicon li:nth-child(4){
+    margin-right:0px;
+}
+/* 这里是底部的信息 */
+.footer{
+    background-color: #f5f5f5;
+    height: 200px;
+    width: 100%;
+}
+.contentfoot {
+    padding-top: 30px;
+}
+.aboutus{
+    display: inline-block;
+}
+.help{
+    margin-left: 102px;
+
+}
+.margin{
+    margin-top: 12px;
+}
+.copyright{
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}
